@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inventory-engine"
+version = "0.1.0"
+description = "OOP inventory management engine with custom exceptions, JSON/CSV persistence, and unit tests."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "RabTech Intern" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
+[project.scripts]
+inventory-engine = "inventory_engine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

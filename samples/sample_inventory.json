@@ -1,0 +1,44 @@
+[
+  {
+    "type": "product",
+    "sku": "TL-001",
+    "name": "Hammer",
+    "price": 12.5,
+    "quantity": 40,
+    "category": "tools"
+  },
+  {
+    "type": "product",
+    "sku": "TL-002",
+    "name": "Screwdriver Set",
+    "price": 8.75,
+    "quantity": 60,
+    "category": "tools"
+  },
+  {
+    "type": "product",
+    "sku": "EL-010",
+    "name": "LED Bulb",
+    "price": 3.2,
+    "quantity": 4,
+    "category": "electronics"
+  },
+  {
+    "type": "perishable",
+    "sku": "DA-100",
+    "name": "Milk 1L",
+    "price": 1.4,
+    "quantity": 25,
+    "category": "dairy",
+    "expiry_date": "2026-10-05"
+  },
+  {
+    "type": "perishable",
+    "sku": "DA-101",
+    "name": "Yogurt Cup",
+    "price": 0.9,
+    "quantity": 50,
+    "category": "dairy",
+    "expiry_date": "2026-09-28"
+  }
+]

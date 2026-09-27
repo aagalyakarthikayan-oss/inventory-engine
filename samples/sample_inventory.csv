@@ -1,0 +1,6 @@
+type,sku,name,price,quantity,category,expiry_date
+product,TL-001,Hammer,12.5,40,tools,
+product,TL-002,Screwdriver Set,8.75,60,tools,
+product,EL-010,LED Bulb,3.2,4,electronics,
+perishable,DA-100,Milk 1L,1.4,25,dairy,2026-10-05
+perishable,DA-101,Yogurt Cup,0.9,50,dairy,2026-09-28
